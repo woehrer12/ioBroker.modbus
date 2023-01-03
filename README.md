@@ -161,10 +161,12 @@ Use value as scaling factor. This is needed to used dynamic scaling factors whic
 - `uint32le` - `Unsigned 32 bit (Little Endian): AABBCCDD => DDCCBBAA`
 - `uint32sw` - `Unsigned 32 bit (Big Endian Word Swap): AABBCCDD => CCDDAABB`
 - `uint32sb` - `Unsigned 32 bit (Big Endian Byte Swap): AABBCCDD => DDCCBBAA`
+- `uint32lesb` - `Unsigned 32 bit (Little Endian Byte Swap): AABBCCDD => BBAADDCC`
 - `int32be`  - `Signed 32 bit (Big Endian): AABBCCDD => AABBCCDD`
 - `int32le`  - `Signed 32 bit (Little Endian): ABBCCDD => DDCCBBAA`
 - `int32sw`  - `Signed 32 bit (Big Endian Word Swap): AABBCCDD => CCDDAABB`
 - `int32sb`  - `Signed 32 bit (Big Endian Byte Swap): AABBCCDD => DDCCBBAA`
+- `int32lesb`  - `Signed 32 bit (Little Endian Byte Swap): AABBCCDD => BBAADDCC`
 - `uint64be` - `Unsigned 64 bit (Big Endian): AABBCCDDEEFFGGHH => AABBCCDDEEFFGGHH`
 - `uint64le` - `Unsigned 64 bit (Little Endian): AABBCCDDEEFFGGHH => HHGGFFEEDDCCBBAA`
 - `uint8be`  - `Unsigned 8 bit (Big Endian): AA => AA`
