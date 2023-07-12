@@ -33,17 +33,17 @@
   "dependencies": {
     "stampit": "^2.1.2",
     "put": "0.0.6",
-    "crc": "4.1.1",
+    "crc": "4.3.2",
     "stampit-state-machine": "^0.2.1",
     "stampit-event-bus": "^0.1.1",
-    "@iobroker/adapter-core": "^2.6.7"
+    "@iobroker/adapter-core": "^2.6.8"
   },
   "devDependencies": {
     "del": "^6.1.1",
     "@alcalzone/release-script": "^3.5.9",
     "@alcalzone/release-script-plugin-iobroker": "^3.5.9",
     "@alcalzone/release-script-plugin-license": "^3.5.9",
-    "axios": "^1.2.2",
+    "axios": "^1.4.0",
     "gulp": "^4.0.2",
     "mocha": "^10.2.0",
     "chai": "^4.3.7",
